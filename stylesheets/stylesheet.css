@@ -287,6 +287,16 @@ Full-Width Styles
   height:100vh;
 }
 
+.page_wrapper {
+  background:#ffffff;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  position:relative;
+  zoom:1;
+  z-index:9;
+}
+
 #forkme_banner {
   display: block;
   position: absolute;
