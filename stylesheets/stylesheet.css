@@ -48,6 +48,15 @@ table {
 Theme Styles
 *******************************************************************************/
 
+splash {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+  display: block;
+  
+}
+
 body {
   box-sizing: border-box;
   color:#373737;
@@ -267,6 +276,15 @@ Full-Width Styles
   max-width: 640px;
   padding: 20px 10px;
   margin: 0 auto;
+}
+
+.splash {
+  width:100%;
+  z-index:0;
+  background-color:#f4f5f6;
+  position:relative;
+  display:block;
+  height:100vh;
 }
 
 #forkme_banner {
